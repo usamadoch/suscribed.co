@@ -40,8 +40,8 @@ import type {
     UploadedFile,
 } from '@/types';
 
-// API base URL - can be overridden via environment variable
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+// API base URL - Hardcoded for debugging as requested
+const API_BASE_URL = 'https://suscribed-co-server.onrender.com/api';
 
 // Custom error class for API errors
 export class ApiClientError extends Error {
