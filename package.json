@@ -9,11 +9,23 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@chakra-ui/color-mode": "^2.2.0",
+    "@headlessui/react": "^2.2.9",
+    "@headlessui/tailwindcss": "^0.2.2",
+    "@hookform/resolvers": "^5.2.2",
+    "@n8tb1t/use-scroll-position": "^4.0.0",
+    "@react-oauth/google": "^0.13.4",
     "@tanstack/react-query": "^5.90.20",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-hook-form": "^7.71.1",
+    "react-hot-toast": "^2.6.0",
+    "react-responsive": "^10.0.1",
+    "react-textarea-autosize": "^8.5.9",
     "socket.io-client": "^4.8.3",
+    "tailwind-merge": "^3.4.0",
+    "tailwind-scrollbar": "^4.0.2",
     "zustand": "^5.0.10"
   },
   "devDependencies": {
